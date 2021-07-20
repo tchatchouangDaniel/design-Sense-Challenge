@@ -4,7 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Design Sense</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="section-day-01">
+        <div class="signup">
+          <div class="signup__container-left">
+            <img src="img/logo-white.png" alt="logo" class="signup__logo" />
+            <h2 class="signup__welcome">
+              Find 3d Object. Mockups and Illustration here.
+            </h2>
+            <img class="signup__3d" src="img/abstract.png" alt="abstract" />
+          </div>
+          <div class="signup__container-right">
+            <div class="wrapper">
+              <select class="signup__select-lang" name="" id="">
+                <option value="en">English(UK)</option>
+                <option value="fr">French(FR)</option>
+              </select>
+              <h1 class="signup__title">create account</h1>
+              <div class="signup__con-opt">
+                <button class="signup__opt signup__google">
+                  <img src="img/google.png" alt="google icon" /> sign up with
+                  google
+                </button>
+                <button class="signup__opt signup__facebook">
+                  <img src="img/facebook.png" alt="facebook icon" /> sign up
+                  with facebook
+                </button>
+              </div>
+              <div class="u-center">
+                <p class="signup__or">- or -</p>
+              </div>
+
+              <form class="signup__form" action="#">
+                <div class="signup__form-group">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    class="signup__input"
+                    id="name"
+                  />
+                  <label for="name" class="signup__label">full name</label>
+                </div>
+                <div class="signup__form-group">
+                  <input
+                    type="email"
+                    placeholder="Email Adress"
+                    class="signup__input"
+                    id="email"
+                  />
+                  <label for="email" class="signup__label">email adress</label>
+                </div>
+                <div class="signup__form-group">
+                  <input
+                    type="password"
+                    class="signup__input floated"
+                    id="password"
+                    placeholder="Password"
+                  />
+
+                  <label for="fullname" class="signup__label">password</label>
+                  <img
+                    src="img/visible.png"
+                    alt="visible"
+                    class="signup__visible floated"
+                  />
+                </div>
+                <button class="signup__submit">create account</button>
+              </form>
+              <p class="signup__login-text">
+                Already have an account?
+                <a class="signup__link" href="#">Log In</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
